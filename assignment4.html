@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignement4</title>
+    <style>
+                .heading {
+            background-color: lightyellow;
+            color: darkred;
+            font-family: 'Georgia', serif;
+            font-size: 17px;
+            border: 2px solid maroon;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: left;
+                }
+    body{
+                    background-image: url('pb.jpeg');
+                    background-size: cover;
+                    background-attachment: scroll;
+      }
+    </style>
+</head>
+<body text="red">
+
+    <div class="heading">    
+        <center><h1>SIT NAGPUR</h1>
+            <img src="symbi.logo.jpeg" width="100px" height="100px">
+        <h2>The Code Sprint</h2>
+        <p>!!!fill your Application For THE CODE SprInT HACKATHON NOW!!!</p>
+        </center>
+    </div>
+<form>
+    <label for="First_name">Enter Your First Name &nbsp &nbsp &nbsp</label>
+        <input type="text" name="First_name">
+        <br>
+        <label for="Last_name">Enter Your Last Name &nbsp &nbsp &nbsp</label>
+        <input type="text" name="Last_name">
+        <br>
+        <label for="number">Enter Your PRN Number &nbsp</label>
+        <input type="number" name="prn" value="prn">
+        <br>
+        <label for ="email">Enter Your Email &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+        <input type="email" name ="email" value="email">
+        <br>
+        <label for="checkbox">Select Yor Roles</label>
+        <br>
+        <input type="checkbox" name ="frontend" value="on">frontend 
+        <input type="checkbox" name ="Backend" value="on">Backend 
+        <input type="checkbox" name ="Designing" value="on">Designing 
+        <input type="checkbox" name ="Documentation" value="on">Documentation 
+        <br>
+        <label for="semister"> Select Your semister<br>
+        <input type="radio" name="semister" value="1">1<br>
+        <input type="radio" name="semister" value="2">2<br>
+        <input type="radio" name="semister" value="3">3<br>
+        <input type="radio" name="semister" value="4">4<br>
+        <input type="radio" name="semister" value="5">5<br>
+        <input type="radio" name="semister" value="6">6<br>
+        <input type="radio" name="semister" value="7">7<br>
+        <input type="radio" name="semister" value="8">8<br>
+        <label for="section">Select Your Section</label><br>
+        <input type="radio" name="section" value="A">A <br>
+        <input type="radio" name="section" value="B">B <br>
+        <input type="radio" name="section" value="C">C <br>
+        <input type="radio" name="section" value="D">D <br>
+        <input type="radio" name="section" value="E">E <br>
+        <input type="radio" name="section" value="F">F <br>
+        <p> Select Your Preffered City</p>
+        <select name = "dropdown">
+            <option value = "Nagpur" selected>Nagpur</option>
+            <option value = "Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value = "Banglore">Banglore</option>
+        </select><br>
+        <p>Select your Fav. Colour </p>
+        <input type="color" name="colorpicker"><br>
+        <label for="Feedback">Please Give your Feedback</label>
+        <textarea rows="5" cols="500" name="Feedback"> </textarea><br>
+
+        <br>
+    <input type="submit" name="submit" value="submit"/>
+        <input type="reset" name="reset" value="reset"/>
+        <input type="image" src="symbi.logo.jpeg" height="50px" width="50px">
+</form>
+</body>
+</html>
